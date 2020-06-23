@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Hello World</title>
+	</head>
+	<body id="body" class='body'>
+		<div class="body-container">
+			<div class="title" >
+				<h1 id='title'>Hello World!</h1>
+			</div>
+			<div class='body-text' id='main-text'>
+					<p>
+						This is a little project to help me get back to the fundamentals of	coding. I really like to code, but sometimes I get burned out and forget why I'm doing this at all. Then I remember that coding can be fun! It doesn't all have to be work.
+					</p>
+					<div><p class='instance'>For instance, try clicking <span class='here' id='here'>here</span></p></div>
+			</div>
+			<div id="hidden-1" class='hide'>
+				<div class='clock-description'>
+					<p>This is a calendar and a clock. They seem simple enough, and JavaScript includes built-in methods for fetching date and time, but it takes a little work to format the information in a way that's readable. It's a simple thing to do that produces a satisfying result. </p>
+				</div>
+				<div class="clock-date-container">
+					<span id="clock"></span></br><span id="date"></span>
+				</div>
+				<p class='more'>Click <span id='here2' class='here'>here</span> to see more.</p>
+			</div>
+			<div id="hidden-2" class='hide'>
+				<div class="counter">
+					<p>This is a counter. It's bounded by whole numbers from 0-10. It is also something easy that is satisfying to get working.</br></br></p>
+					<div class='counter-counter'>
+						<button id="minus" class="button">-</button>
+						<span id="counter"></span>
+						<button id="plus" class="button">+</button>
+					<p></br>Click <span class='here' id='here3'>here</span> to see something else</p>
+					</div>
+				</div>
+			</div>
+			<div id='hidden-3' class= 'hide'>
+				<div class='words'>
+					<code>
+					<p class='code'>const words = [This, is, an, array, of, words, called, words., In, Python, it, is, called, a, list, but, this, is, JavaScript, so, we, call, it, an, array.]</p></code>
+					<p> Arrays are data that is collected in an ordered list. Data stored in an array can be referred to by its index position, starting from zero. If you wanted to access the word "word," you could describe it as words[5], where [5] represents the index position of "word." </p>
+					<p class= 'arrows'>Try clicking the arrows below to iterate through the array. Remember to start counting from zero!</br></br></br><span id='left'><--------</span><span id='word'></span><span id='right'>--------></span>
+					<p class='nav'></br>Click <span class='here' id='here4'>here</span> for something different.</p>
+					
+				</div>
+			</div>
+				<div id='hidden-4' class='hide form-page'>
+					<p>JavaScript also makes it easy to retrieve data entered into forms. It's useful when you need to get simple input from the user. This information can be sent to a backend for processing and storage or can be held in the frontend to render elements based on the text entered in the form fields.</p> 
+					<p>Forms can be quite long but the best ones are short. Always remember that asking the user to do anything is making a demand on their time. </p>
+					<p>Try typing your name below.</br></p>
+					<div class='name-element'>
+						<form><input class='form' type='text' id='myName'>
+							<button class='button' id='name-button' type='submit'>=></button></form>
+							<p class='name-message'><span id='name'></span></p>
+						</div>
+						<p class='nav hide' id='hidden-nav'></br>Click <span class='here' id='here5'>here</span> to move along.</p>
+					</div>
+					<div id='hidden-5' class= 'hide'>
+						<p class='squares-text'>CSS enables us to add style to our websites. The background color, font, column width - it's all CSS. You can use JavaScript and CSS together to create dynamic styles. Try clicking the white box below!</p>
+						<div class='squares'>
+							<div class='white' id='left-square'></div>
+							<div class ='black' id='right-square'></div>
+						</div>
+						<p class='nav ' id='hidden-nav'></br>Click <span class='here' id='here6'>here</span> to move it move it move it.</p>
+						
+					</div>
+					<div id='hidden-6' class ='hide'>
+							<div>
+								<p>This is a slider. You can set the minimum and maximum values. This one goes up to one million.</p>
+								<p id='counter' class='counter'></p>
+							</div>
+							<div class="slidecontainer">
+								<input type="range" min="0" max="100000000" value="0" class="slider" id="slider">
+							</div>
+							<div class='go-home' id='go-home'>
+								<p><span class='here' id='home'>Go Home</span></p>
+							</div>
+					</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="./script.js"></script>
+	</body>
+</html>
